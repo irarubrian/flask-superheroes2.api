@@ -1,0 +1,72 @@
+body {
+    font-family: Verdana, sans-serif;
+    margin:20px;
+    padding:1px;
+    background-color:lightblue;
+    color:red;
+    align-items: center;
+}
+
+#form{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    justify-content: center;
+    justify-items: center;
+}
+
+#controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+}
+ 
+#item-input {
+    width: 205px;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    background-color: gold;
+    color: aqua;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {background-color: blue;
+
+}
+
+#shopping-list {
+    list-style: none;
+    padding: 0;
+}
+
+.list-item.purchased {
+    text-decoration: line-through;
+    background-color: purple;
+}
+
+.list-item button {
+    margin-left: 5px;
+    padding: 2px 8px;
+    font-size: 12px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+.list-item button.hover {
+    background-color: blueviolet;
+
+}
