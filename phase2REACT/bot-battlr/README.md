@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+            ** BOT BATTLR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Bot Battlr, the one-stop galactic app for building your custom bot army! This project is built using React and allows users to browse a list of bots, view their details, and enlist them into their personal army.
 
-## Available Scripts
 
-In the project directory, you can run:
+            **PROJECT DISCRIPTION
+Bot Battlr is an interactive application that displays a collection of bots fetched from a local server. Users can:
 
-### `npm start`
+>>Enlist bots into their personal army.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+>>Release bots from their army.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+>>Permanently delete bots from the collection.
 
-### `npm test`
+This project demonstrates the use of React state management, component composition, and API interaction with JSON Server.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+                **FEATURES
+>>Display a list of available bots.
 
-### `npm run build`
+>>Enlist bots into your army (a bot can only be enlisted once).
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+>>Release bots from your army.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+>>Permanently delete bots from the collection and server.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+>>Sort bots by health, damage, or armor.
 
-### `npm run eject`
+>>Filter bots by their class.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+                **SETUP INSTRUCTION
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Follow these steps to run the project locally:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+ **PREREQUISITES       
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+.Node.js installed on your machine.
 
-## Learn More
+.npm (comes with Node.js).
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+        **INSTALLATION
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+(1) Clone the repository:
 
-### Code Splitting
+git clone <repository-url>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+(2) Navigate to the project directory:
 
-### Analyzing the Bundle Size
+cd bot-battlr
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+(3) Install dependencies:
 
-### Making a Progressive Web App
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+(4) Set up the JSON Server:
 
-### Advanced Configuration
+.Create a db.json file in the project root with the provided data.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+.Start the server:
 
-### Deployment
+npx json-server --watch db.json --port 8001
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+(5) Start the React application:
 
-### `npm run build` fails to minify
+npm start
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+(6) Open the app in your browser:
+
+
+            **USAGE
+
+(1) Browse the list of bots displayed in the BotCollection.
+
+(2) Click a bot to enlist it in your army (YourBotArmy).
+
+(3) Remove a bot from your army by clicking on it.
+
+(4) Permanently delete a bot using the red "x" button.
+
+            **ADVANCED FEATURES
+
+(1) Bot Details View: Display detailed information about a bot when clicked.
+
+(2) Sorting: Sort bots by health, damage, or armor.
+
+(3) Filtering: Filter bots by class 
+
+(4) Single Class Enlistment: Restrict enlistment to one bot per class.

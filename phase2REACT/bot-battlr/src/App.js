@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import BotCollection from "./components/BotCollection";
 import YourBotArmy from "./components/YourBotArmy";
 import SortBar from "./components/SortBar";
+import Footer from "./components/Footer"
 import "./App.css";
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
       <SortBar bots={bots} setBots={setBots} />
       <YourBotArmy army={army} removeFromArmy={removeFromArmy} deleteBot={deleteBot} />
       <BotCollection bots={bots} addToArmy={addToArmy} deleteBot={deleteBot} />
+      <Footer />
     </div>
   );
 }

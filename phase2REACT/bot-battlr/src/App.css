@@ -2,6 +2,7 @@ body {
   font-family: 'Courier New', Courier, monospace;
   padding: 0;
   margin: 0 auto;
+  text-decoration: dotted;
   text-align: center;
   font-size: medium;
   background-color: chartreuse;
@@ -9,6 +10,8 @@ body {
 }
 
 header {
+  display: flex;
+  flex-direction: column-reverse;
   padding: 0;
   margin: 0;
   text-align: start;
@@ -61,4 +64,16 @@ header {
   background-size: cover;
   background-color: blueviolet;
   color: aqua;
+}
+.h2{
+  font-style: italic;
+  font-weight: 300;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: aqua;
+  color: magenta;
+}
+.Footer{
+  font-family: sans-serif;
+  font-style: italic;
+  font-weight: 200;
 }
