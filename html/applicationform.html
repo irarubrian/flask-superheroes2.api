@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Application Form</title>
+</head>
+<body>
+    <h1>Job Application Form</h1>
+    
+    <form>
+        <!-- Name Fields -->
+        <div>
+            <label>First Name:</label>
+            <input type="text" name="firstname" required>
+        </div>
+
+        <div>
+            <label>Last Name:</label>
+            <input type="text" name="lastname" required>
+        </div>
+
+        <!-- Date of Birth -->
+        <div>
+            <label>Date of Birth:</label>
+            <input type="date" name="dob" required>
+        </div>
+
+        <!-- Age -->
+        <div>
+            <label>Age:</label>
+            <input type="number" name="age" min="18" max="60" required>
+        </div>
+
+        <!-- Gender -->
+        <div>
+            <label>Gender:</label>
+            <input type="radio" name="gender" value="male" checked> Male
+        </div>
+
+        <!-- Email -->
+        <div>
+            <label>Email:</label>
+            <input type="email" name="email" value="mercy.tech@gmail.com" required readonly>
+        </div>
+
+        <!-- Position Selection -->
+        <div>
+            <label>Position:</label>
+            <select name="position" required>
+                <option value="">Select Position</option>
+                <option value="junior">Junior Developer</option>
+                <option value="midlevel">Midlevel Developer</option>
+                <option value="senior">Senior Developer</option>
+            </select>
+        </div>
+
+        <!-- Programming Languages -->
+        <div>
+            <label>Programming Languages:</label><br>
+            <input type="checkbox" name="languages" value="java"> Java
+            <input type="checkbox" name="languages" value="javascript"> JavaScript
+            <input type="checkbox" name="languages" value="python"> Python
+        </div>
+
+        <!-- Password -->
+        <div>
+            <label>Password:</label>
+            <input type="password" name="password" required>
+        </div>
+
+        <!-- Confirm Password -->
+        <div>
+            <label>Confirm Password:</label>
+            <input type="password" name="confirm_password" required>
+        </div>
+
+        <!-- Buttons -->
+        <div>
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    </form>
+</body>
+</html>
