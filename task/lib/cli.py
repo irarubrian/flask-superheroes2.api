@@ -81,11 +81,11 @@ def department_menu():
 def employee_menu():
     while True:
         print("\nEmployee Menu:")
-        print("i. Create Employee")
-        print("ii. Delete Employee")
-        print("iii. Display All Employees")
-        print("iv. Find Employee by ID")
-        print("v. Back to Main Menu")
+        print("1. Create Employee")
+        print("2. Delete Employee")
+        print("3. Display All Employees")
+        print("4. Find Employee by ID")
+        print("5. Back to Main Menu")
 
         choice = input("Choose an option: ").strip()
         session = Session()
@@ -127,11 +127,11 @@ def employee_menu():
 def project_menu():
     while True:
         print("\nProject Menu:")
-        print("i. Create Project")
-        print("ii. Delete Project")
-        print("iii. Display All Projects")
-        print("iv. Find Project by ID")
-        print("v. Back to Main Menu")
+        print("1. Create Project")
+        print("2. Delete Project")
+        print("3. Display All Projects")
+        print("4. Find Project by ID")
+        print("5. Back to Main Menu")
 
         choice = input("Choose an option: ").strip()
         session = Session()
@@ -173,11 +173,11 @@ def project_menu():
 def task_menu():
     while True:
         print("\nTask Menu:")
-        print("i. Create Task")
-        print("ii. Delete Task")
-        print("iii. Display All Tasks")
-        print("iv. Find Task by ID")
-        print("v. Back to Main Menu")
+        print("1. Create Task")
+        print("2. Delete Task")
+        print("3. Display All Tasks")
+        print("4. Find Task by ID")
+        print("5. Back to Main Menu")
 
         choice = input("Choose an option: ").strip()
         session = Session()
