@@ -16,6 +16,7 @@ def main_menu():
         print("5. Exit")
 
         choice = input("Choose an option: ").strip()
+
         if choice == '1':
             department_menu()
         elif choice == '2':
@@ -44,7 +45,10 @@ def department_menu():
 
         choice = input("Choose an option: ").strip()
         session = Session()
+
         try:
+
+
             if choice == '1':
                 name = input("Enter department name: ").strip()
                 Department.create(session, name=name)
