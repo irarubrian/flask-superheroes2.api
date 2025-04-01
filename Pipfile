@@ -4,8 +4,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+<<<<<<< HEAD
+=======
+flask = "*"
+>>>>>>> 3943f96 (commit)
 
 [dev-packages]
 
 [requires]
 python_version = "3.8"
+<<<<<<< HEAD
+=======
+python_full_version = "3.8.13"
+>>>>>>> 3943f96 (commit)
